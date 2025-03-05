@@ -36,6 +36,50 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- Media Queries -->
+    <style>
+        /* Small devices (landscape phones, 576px and up) */
+        @media (min-width: 576px) {
+            .top-bar {
+                padding: 10px 0;
+            }
+        }
+
+        /* Medium devices (tablets, 768px and up) */
+        @media (min-width: 768px) {
+            .top-bar {
+                padding: 15px 0;
+            }
+        }
+
+        /* Large devices (desktops, 992px and up) */
+        @media (min-width: 992px) {
+            .top-bar {
+                padding: 20px 0;
+            }
+        }
+
+        /* Extra large devices (large desktops, 1200px and up) */
+        @media (min-width: 1200px) {
+            .top-bar {
+                padding: 25px 0;
+            }
+        }
+
+        /* Custom media query for smaller screens */
+        @media (max-width: 575.98px) {
+            .navbar-brand h1 {
+                font-size: 1.5rem;
+            }
+            .navbar-nav .nav-link {
+                font-size: 0.9rem;
+            }
+            .footer .btn-link {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
 </head>
 
 <body>
